@@ -1,7 +1,6 @@
 /*
   05/06/2019
   Fabio Battarra - www.battarra.it
-  
 */
 #include <Adafruit_NeoPixel.h>
 
@@ -9,7 +8,7 @@
 #define N_LEDS 8  // number of addressable leds used
 #define LED_TYPE NEO_RGB // WS2812B
 
-#define LDR_PIN 1  // 5528 LDR used + 10KΩ pullup (P2 on DigiSpark, for analog reading)
+#define LDR_PIN 1  // 5528 LDR + 10KΩ pullup (pin "P2" on DigiSpark)
 #define V_DARK 0   // "dark index" in ar[Ldr/Led]Threshold
 #define V_BRIGHT 1 // "bright index" in ar[Ldr/Led]Threshold
 const int arLdrThreshold[] = {100, 900}; // LDR boundaries for dark ([0]) and bright ([1]) environments
@@ -58,7 +57,6 @@ void adjStripBrightness(int ldrValue){
   arLedBrightness[1] = map(constrain(ldrValue,arLdrThreshold[V_DARK], arLdrThreshold[V_BRIGHT]), arLdrThreshold[V_DARK], arLdrThreshold[V_BRIGHT], arLedThreshold[V_DARK], arLedThreshold[V_BRIGHT]);
 
   if(int brightDiff = abs(arLedBrightness[1] - arLedBrightness[0]) > 1 ){
-    //Serial.println("prima: " + String(arLedBrightness[0]) + "; ora: " + String(arLedBrightness[1]) + " (differenza: "+ String(brightDiff) +")");
     for(int i= 0; i <= brightDiff; i++){
       if(arLedBrightness[1] > arLedBrightness[0])
         arLedBrightness[0] ++;
