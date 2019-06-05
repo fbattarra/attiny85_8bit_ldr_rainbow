@@ -1,5 +1,4 @@
-# attiny85_8bit_ldr_rainbow
-DigiSpark (clone) LDR Brightness controlled 8x WS2812B rigid strip, with Adafruit NeoPixel
+# DigiSpark (clone) LDR Brightness controlled 8x WS2812B rigid strip, with Adafruit NeoPixel
 
 
 Bill of materials:
