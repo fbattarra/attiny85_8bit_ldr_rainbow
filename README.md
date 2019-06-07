@@ -21,4 +21,4 @@
 
 ## Nice To Know:
 * Quick fix for issue in uploading to DigiSpark from PlatformIO on MacOS: [PIO issue 111](https://github.com/platformio/platform-atmelavr/issues/111)
-* Cheap USB chargers may provide a dirty output which could make LEDs oddly flicker when at low brightness: make sure to have a clean 5V source, or to filter adding a capacitor or a more proper circuit like [![this one:](http://andybrown.me.uk/wp-content/images//usbnoise/schematic.png)](http://andybrown.me.uk/2015/07/24/usb-filtering/)
+* Cheap USB chargers may provide a dirty output which could make LEDs oddly flicker when at low brightness: make sure to have a clean 5V source, or to filter adding a capacitor or a more proper circuit like this one [![this one:](http://andybrown.me.uk/wp-content/images//usbnoise/schematic.png)](http://andybrown.me.uk/2015/07/24/usb-filtering/)
