@@ -1,4 +1,4 @@
-# DigiSpark clone 8x WS2812B rainbow wheel with LDR brightness adjustment
+# DigiSpark clone 8x WS2812B rainbow wheel with ambient light brightness adjustment
 [![Watch the video](https://img.youtube.com/vi/2wXzP9xPV1U/maxresdefault.jpg)](https://youtu.be/2wXzP9xPV1U)
 
 
