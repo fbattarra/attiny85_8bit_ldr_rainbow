@@ -20,5 +20,8 @@
 
 
 ## Nice To Know:
+* To upload the code, make sure to have an USB cable with every pin wired: cheap charging cables often have just +5V and ground wired
+* Uploading from PlatformIO to DigiSpark needs you to plug the DigiSpark __after__ compiling, even though the console doesn't warn "now it's time to plug your DigiSpark", as Arduino IDE does.
 * Quick fix for issue in uploading to DigiSpark from PlatformIO on MacOS: [PIO issue 111](https://github.com/platformio/platform-atmelavr/issues/111)
-* Cheap USB chargers may provide dirty/noisy output, which could make LEDs oddly flicker expecially at low brightness: make sure to have a clean 5VDC source, or to filter adding a capacitor or a more proper circuit like this one: [![this one:](http://andybrown.me.uk/wp-content/images//usbnoise/schematic.png)](http://andybrown.me.uk/2015/07/24/usb-filtering/)
+* Cheap USB chargers may provide dirty/noisy output, which could make LEDs oddly flicker expecially at low brightness: make sure to have a clean 5VDC source, or to filter adding a capacitor or a more proper circuit like this one: 
+[![this one:](http://andybrown.me.uk/wp-content/images//usbnoise/schematic.png)](http://andybrown.me.uk/2015/07/24/usb-filtering/)
