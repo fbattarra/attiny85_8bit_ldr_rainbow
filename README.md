@@ -8,6 +8,8 @@
 * 1x LDR ("5528" used in the project)
 * 1x 10KΩ resistor
 
+## Wiring Diagram
+![Wiring Diagram (made with Fritzing)](https://user-images.githubusercontent.com/14162452/60257214-53070080-98d3-11e9-91a5-7275b371b019.png)
 
 ## Tested Working Development Environment:
 * IDE : PlatformIO (v2.1.0, on Visual Studio Code v1.35.0)
