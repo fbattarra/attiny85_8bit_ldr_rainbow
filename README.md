@@ -1,10 +1,10 @@
-# DigiSpark clone 8x WS2812B rainbow wheel with ambient light LED brightness adjustment
+# DigiSpark clone 8x WS2812 rainbow wheel with ambient light LED brightness adjustment
 [![Watch the video](https://img.youtube.com/vi/2wXzP9xPV1U/maxresdefault.jpg)](https://youtu.be/2wXzP9xPV1U)
 
 
 ## Bill Of Materials:
 * 1x Digispark mounting an Attiny85
-* 1x 8xWS2812B rigid led bar
+* 1x 8xWS2812 rigid led bar
 * 1x LDR ("5528" used in the project)
 * 1x 10KΩ resistor
 
