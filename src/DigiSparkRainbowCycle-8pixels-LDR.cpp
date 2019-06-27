@@ -9,7 +9,7 @@
 
 // pixels
 #define LED_PIN 0         // P0 on DigiSpark
-#define LED_TYPE NEO_RGB  // WS2812B
+#define LED_TYPE NEO_RGB  // WS2812
 #define LEDS 8            // number of addressable leds
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(LEDS, LED_PIN, LED_TYPE);
 
